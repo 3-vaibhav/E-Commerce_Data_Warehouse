@@ -1,0 +1,18 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+data/raw/*.csv
+archive/
+# macOS
+.DS_Store
+
+# Python and test artifacts
+.coverage
+htmlcov/
+
+# Local environment files
+.env.*
+!.env.example
